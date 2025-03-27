@@ -49,7 +49,6 @@
 								<arg>-Ob</arg>
 								<arg>-Dnative.encoding=UTF-8</arg>
 								<arg>-H:CompilerBackend=llvm</arg>
-								<arg>-H:LLVMOutputFile=renderer.ll</arg>
 							</buildArgs>
 						</configuration>
 					</plugin>
