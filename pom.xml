@@ -48,6 +48,7 @@
 							<buildArgs>
 								<arg>-Ob</arg>
 								<arg>-Dnative.encoding=UTF-8</arg>
+								<arg>-Ddebug.jdk.graal.jvmciConfigCheck=warn</arg>
 								<arg>-H:CompilerBackend=llvm</arg>
 							</buildArgs>
 						</configuration>
