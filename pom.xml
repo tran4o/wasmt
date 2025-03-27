@@ -48,7 +48,6 @@
 							<buildArgs>
 								<arg>-Ob</arg>
 								<arg>-Dnative.encoding=UTF-8</arg>
-								<arg>-H:LLVMMaxFunctionsPerBatch=1</arg>
 								<arg>-H:CompilerBackend=llvm</arg>
 							</buildArgs>
 						</configuration>
