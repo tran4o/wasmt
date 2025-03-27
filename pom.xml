@@ -46,6 +46,8 @@
 							<imageName>${imageName}</imageName>
 							<fallback>false</fallback>
 							<buildArgs>
+								<arg>-Ob</arg>
+								<arg>-H:+UnlockExperimentalVMOptions</arg>
 								<arg>-Dnative.encoding=UTF-8</arg>
 								<arg>-H:CompilerBackend=llvm</arg>
 							</buildArgs>
